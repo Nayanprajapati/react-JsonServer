@@ -1,0 +1,120 @@
+/* General styles */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Center the card */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 1200px; /* Further increased width for registration */
+    max-height: 65vh; /* Reduced height */
+    overflow-y: auto; /* Enables scrolling if content exceeds max height */
+    text-align: center;
+  }
+  
+  .card-header {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card-header h2, .card-header h1 {
+    margin: 0;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .card-body {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    border-color: #667eea;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(102, 126, 234, 0.5);
+  }
+  
+  /* Adjust gender selection alignment */
+  .gender-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  .card-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 48%;
+  }
+  
+  button:hover {
+    background: #5648a6;
+  }
+  
+  .btn-danger {
+    background: #dc3545;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+  }
+  
+  .btn-danger:hover {
+    background: #c82333;
+  }
+  
